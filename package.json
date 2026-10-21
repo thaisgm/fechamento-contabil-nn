@@ -1,0 +1,13 @@
+{
+  "name": "fechamento-contabil-nn",
+  "version": "0.1.0",
+  "description": "MVP do Fechamento Contábil para o NN HUB (protótipo para revisão do desenvolvimento)",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "demo": "node scripts/montar-demo.js"
+  }
+}
